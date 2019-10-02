@@ -109,7 +109,7 @@ class TestCamelCase(unittest.TestCase):
 
         self.assertEqual(lista_palavras, ["CPF"])
 
-    def test_split_palavra_siglas(self):
+    def test_split_palavra_siglas2(self):
         camel_case = CalmelCase()
         lista_palavras = camel_case.split("TEC")
 
