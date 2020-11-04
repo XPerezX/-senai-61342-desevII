@@ -38,7 +38,7 @@ class CalmelCase:
                     self.__adicionar_palavras_resultado(palavra)
 
     def split(self, palavra):
-        numeros = ["0","1","2","3","4","5","6","7","8","9"]
+        numeros = ["0","1","2","3","4","5","6","7","8","9","10"]
 
         if self.__primeiro_caracter(palavra) not in numeros :
             if self.__percorre_palavra(palavra) is not "yes":
